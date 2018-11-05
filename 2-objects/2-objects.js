@@ -5,13 +5,13 @@
 
 
 // Aquí tu código
-obj = { 
-    a:{
-    b:true,
-    c:[0,2],
+let obj = {
+    a: {
+        b: true,
+        c: [0,2]
     },
-    d:5,
-    f:'alex'
+    d: 5,
+    f: 'objects'
 }
 
 // Hasta aquí
