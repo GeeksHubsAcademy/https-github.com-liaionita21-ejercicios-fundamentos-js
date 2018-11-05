@@ -33,3 +33,11 @@ let gente = [{
         edad: 10
     },
 ]
+var mas25 = [];
+
+for(var i of people) {
+    if( i.edad > 25 ){
+        mas25 = [ i ];
+        console.log(mas25);
+    }
+}
