@@ -33,11 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
-var empiezaPorJ= [];
-
-for(var i of gente) {
-    if (i.nombre.charAt(0) === 'J') {
-        empiezaPorJ= [i];
-        console.log(empiezaPorJ);
-    }
-}
+let letra = [];
+for (let persona of gente) {
+     if (persona.nombre[0]=== 'J')
+     letra.push(persona)
+};
+console.log(letra);
