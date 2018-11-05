@@ -35,7 +35,7 @@ let gente = [{
 ]
 var empiezaPorJ= [];
 
-for(var i of people) {
+for(var i of gente) {
     if (i.nombre.charAt(0) === 'J') {
         empiezaPorJ= [i];
         console.log(empiezaPorJ);
