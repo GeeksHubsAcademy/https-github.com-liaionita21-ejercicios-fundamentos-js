@@ -32,7 +32,7 @@ let gente = [{
         edad: 10
     },
 ]
-var cuatroLetras=gente.filter(function(item){
+ar cuatroLetras=gente.filter(function(item){
     return item.nombre.length===4;
 })
 console.log(cuatroLetras);
