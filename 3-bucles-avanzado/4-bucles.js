@@ -10,6 +10,7 @@ let frase = Math.random() > 0.5 ? ['unite', 'states', 'america'] : ['aeropuertos
 console.log('El array frase es: ', frase);
 // Aquí tu código
 
+var acronimo= 'España';
 
 
 // Hasta aquí
