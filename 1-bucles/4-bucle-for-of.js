@@ -33,11 +33,11 @@ let gente = [{
         edad: 10
     },
 ]
-var mas25 = [];
-
-for(var i of people) {
-    if( i.edad > 25 ){
-        mas25 = [ i ];
-        console.log(mas25);
+let mayores25 = [];
+for (let persona of gente) {
+    if (persona.edad > 25) {
+        mayores25.push(persona)
     }
+
 }
+console.log(mayores25);
