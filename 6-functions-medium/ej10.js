@@ -14,6 +14,11 @@
 
 // Aquí tu código.  Desde aquí:
 const conCuantosParametrosMeHanEjecutado;
+et conCuantosParametrosMeHanEjecutado = (...rest) => {
+    return rest.length;
+};
+
+console.log(conCuantosParametrosMeHanEjecutado);
 // Hasta aquí.
 
 
