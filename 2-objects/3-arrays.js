@@ -5,6 +5,20 @@
 
 
 // Aquí tu código
+arr=[
+    obj={
+        name:'pepito',
+        age: 25,
+    },
+    obj2 = {
+        name:'pepito',
+        age: 7,
+    },
+    obj3 = {
+        name: 'Lia',
+        age: 3,
+    }
+];
 
 
 // Hasta aquí
