@@ -5,14 +5,16 @@
 
 
 // Aquí tu código
-let obj = {
+var obj = {
     a: {
         b: true,
-        c: [0,2]
+        c: ["",1],
     },
-    d: 5,
-    f: 'objects'
+    d: 6,
+    f: "abcd",
+
 }
+
 
 // Hasta aquí
 
